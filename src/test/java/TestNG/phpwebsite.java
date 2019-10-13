@@ -27,7 +27,7 @@ public class phpwebsite{
 		options.setExperimentalOption("useAutomationExtension", false);
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://192.168.56.101:9000/");
+		driver.get("http://192.168.56.102:9000/");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	}
 	@Test
