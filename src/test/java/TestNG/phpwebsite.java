@@ -23,7 +23,6 @@ public class phpwebsite{
 		options.addArguments("--disable-plugins");
 		options.addArguments("--enable-precise-memory-info"); 
 		options.addArguments("--disable-popup-blocking");
-		options.addArguments("disable-infobars");
 		options.setExperimentalOption("useAutomationExtension", false);
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-13T14:57:51Z" name="Default suite" finished-at="2019-10-13T14:57:59Z" duration-ms="8404">
+  <suite started-at="2019-10-13T15:50:08Z" name="Default suite" finished-at="2019-10-13T15:50:20Z" duration-ms="11614">
     <groups>
     </groups>
-    <test started-at="2019-10-13T14:57:51Z" name="Default test" finished-at="2019-10-13T14:57:59Z" duration-ms="8404">
+    <test started-at="2019-10-13T15:50:08Z" name="Default test" finished-at="2019-10-13T15:50:20Z" duration-ms="11614">
       <class name="TestNG.phpwebsite">
-        <test-method is-config="true" signature="launch()[pri:0, instance:TestNG.phpwebsite@45f45fa1]" started-at="2019-10-13T14:57:51Z" name="launch" finished-at="2019-10-13T14:57:58Z" duration-ms="6819" status="PASS">
+        <test-method is-config="true" signature="launch()[pri:0, instance:TestNG.phpwebsite@45f45fa1]" started-at="2019-10-13T15:50:08Z" name="launch" finished-at="2019-10-13T15:50:16Z" duration-ms="7762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="verifyphpwebsite()[pri:0, instance:TestNG.phpwebsite@45f45fa1]" started-at="2019-10-13T14:57:58Z" name="verifyphpwebsite" finished-at="2019-10-13T14:57:59Z" duration-ms="1515" status="FAIL">
+        <test-method signature="verifyphpwebsite()[pri:0, instance:TestNG.phpwebsite@45f45fa1]" started-at="2019-10-13T15:50:16Z" name="verifyphpwebsite" finished-at="2019-10-13T15:50:20Z" duration-ms="3712" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate an element using xpath=//a[@href='/content/about-us.php']
@@ -62,7 +62,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyphpwebsite -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.phpwebsite@45f45fa1]" started-at="2019-10-13T14:57:59Z" name="close" finished-at="2019-10-13T14:57:59Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.phpwebsite@45f45fa1]" started-at="2019-10-13T15:50:20Z" name="close" finished-at="2019-10-13T15:50:20Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
