@@ -20,10 +20,7 @@ public class phpwebsite{
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--disable-extensions");
-		options.addArguments("--disable-plugins");
-		options.addArguments("--enable-precise-memory-info"); 
-		options.addArguments("--disable-popup-blocking");
-		options.setExperimentalOption("useAutomationExtension", false);
+		options.addArguments("--disable-plugins");	
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://192.168.56.102:9000/");
