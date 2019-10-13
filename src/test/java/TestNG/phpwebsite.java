@@ -20,7 +20,8 @@ public class phpwebsite{
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
 		options.addArguments("--disable-extensions");
-		options.addArguments("--disable-plugins");	
+		options.addArguments("--disable-plugins");
+		options.setExperimentalOption("useAutomationExtension",false);
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://192.168.56.102:9000/");
