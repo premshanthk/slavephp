@@ -16,9 +16,10 @@ public class phpwebsite{
 	public void launch() {
 		System.setProperty("webdriver.chrome.driver", "/home/edureka/chromedriver");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--headless");
+		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
-		driver = new ChromeDriver();
+		options.addArguments("--disable-popup-blocking");
+		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("http://192.168.56.102:9000/");
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
