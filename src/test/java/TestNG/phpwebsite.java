@@ -18,7 +18,7 @@ public class phpwebsite{
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
-		options.addArguments("--disable-popup-blocking");
+		options.addArguments("disable-popup-blocking");
 		driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("http://192.168.56.102:9000/");
