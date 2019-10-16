@@ -17,7 +17,6 @@ public class phpwebsite{
 		System.setProperty("webdriver.chrome.driver", "/home/edureka/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
-		options.addArguments("--no-sandbox");
 		options.addArguments("--disable-dev-shm-usage");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
